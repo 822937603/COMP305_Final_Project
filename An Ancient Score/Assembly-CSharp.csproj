@@ -45,7 +45,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\ArrowItemController.cs" />
      <Compile Include="Assets\_Scripts\GoldItemController.cs" />
+     <Compile Include="Assets\_Scripts\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\WoodItemController.cs" />
      <None Include="Assets\Models\overlord\models\overlord\Materials\clothshader.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Models\Medieval props\Read me.txt" />

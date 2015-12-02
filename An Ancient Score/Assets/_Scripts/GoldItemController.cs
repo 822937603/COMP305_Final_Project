@@ -12,7 +12,7 @@ public class GoldItemController : MonoBehaviour {
 	// PUBLIC INSTANCE VARIABLES
 
 	public AudioSource goldCollect;
-	public GameObject gold;
+
 
 	// Use this for initialization
 	void Start () {
@@ -28,16 +28,24 @@ public class GoldItemController : MonoBehaviour {
 
 	void DestroyGold ()
 	{
-		Destroy (gameObject);
+		Destroy(gameObject, 0.5f);
+		goldCollect.Play();
 	}
 
 	void onTriggerEnter(Collider otherGameObject)
 	{
-		if (otherGameObject.tag == "Player") {
-			Debug.Log("col");
-			goldCollect.Play();
-			Invoke("DestroyGold", 0.5f);
-		}
+		Debug.Log ("hello");
+		if (otherGameObject.gameObject.tag == "Player" ) {
+			Destroy(gameObject);
+			}
 	}
+	//void onCollisionEnter(Collision otherGameObject)
+	//{
+	//	Debug.Log ("hello");
+	//	if (otherGameObject.gameObject.tag == "Player") {
+	//		Destroy(gameObject);
+	///		
+	//	}
+	//}
 }
 
