@@ -23,21 +23,20 @@ public class GoldItemController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
 	void DestroyGold ()
 	{
-		Destroy(gameObject, 0.5f);
 		goldCollect.Play();
+		Destroy(gameObject);
 	}
 
-	void onTriggerEnter(Collider otherGameObject)
-	{
-		Debug.Log ("hello");
-		if (otherGameObject.gameObject.tag == "Player" ) {
-			Destroy(gameObject);
-			}
+	void OnTriggerEnter(Collider other){
+		if(other.gameObject.CompareTag("Player")){
+			goldCollect.Play();
+			Destroy(gameObject,0.5f);
+		}
 	}
 	//void onCollisionEnter(Collision otherGameObject)
 	//{
