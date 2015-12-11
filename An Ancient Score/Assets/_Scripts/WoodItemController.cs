@@ -25,11 +25,10 @@ public class WoodItemController : MonoBehaviour {
 	
 	}
 
-	void onTriggerEnter(Collider otherGameObject)
-	{
-		Debug.Log ("hello");
-		if (otherGameObject.tag == "Player" ) {
-			Destroy(gameObject);
+	void OnTriggerEnter(Collider other){
+		if(other.gameObject.CompareTag("Player")){
+			woodCollect.Play();
+			Destroy(gameObject,0.5f);
 		}
 	}
 }

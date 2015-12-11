@@ -24,11 +24,10 @@ public class ArrowItemController : MonoBehaviour {
 	
 	}
 
-	void onTriggerEnter(Collider otherGameObject)
-	{
-		Debug.Log ("hello");
-		if (otherGameObject.gameObject.tag == "Player" ) {
-			Destroy(gameObject);
+	void OnTriggerEnter(Collider other){
+		if(other.gameObject.CompareTag("Player")){
+			arrowCollect.Play();
+			Destroy(gameObject,0.5f);
 		}
 	}
 }
