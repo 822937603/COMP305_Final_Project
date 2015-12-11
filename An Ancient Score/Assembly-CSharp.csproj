@@ -50,6 +50,10 @@
      <Compile Include="Assets\_Scripts\GameController.cs" />
      <Compile Include="Assets\_Scripts\GoldItemController.cs" />
      <Compile Include="Assets\_Scripts\Life.cs" />
+<<<<<<< HEAD
+     <Compile Include="Assets\_Scripts\MenuController.cs" />
+=======
+>>>>>>> origin/master
      <Compile Include="Assets\_Scripts\PlayerController.cs" />
      <Compile Include="Assets\_Scripts\Score.cs" />
      <Compile Include="Assets\_Scripts\WoodItemController.cs" />
