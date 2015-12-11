@@ -1,25 +1,7 @@
 Base path: C:/Program Files/Unity/Editor/Data
-<<<<<<< HEAD
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-9616
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-5192
 Cmd: getPlatforms
-=======
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-7352
-Cmd: getPlatforms
-Cmd: preprocess
-  insize=4320 outsize=1045 ok=1
-Cmd: preprocess
-  error: 1 plat 18 at (0): texcoord2 missing from surface shader's vertex input struct (appdata), disabled dynamic GI and meta pass generation
-  insize=1486 outsize=2059 ok=1
-Cmd: preprocess
-  insize=13263 outsize=2671 ok=1
-Cmd: preprocess
-  insize=20089 outsize=3450 ok=1
-Cmd: preprocess
-  insize=12408 outsize=2547 ok=1
-Cmd: preprocess
-  insize=1890 outsize=547 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=7335 outsize=3508 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+  api=4 type=0 insize=70382 outsize=3931 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=7335 outsize=10163 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
->>>>>>> origin/master
+  api=4 type=1 insize=70382 outsize=12446 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON pd= ok=1
