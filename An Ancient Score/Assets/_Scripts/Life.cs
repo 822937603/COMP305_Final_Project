@@ -1,25 +1,15 @@
-<<<<<<< HEAD
+
 // Franco Chong
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
-﻿// Franco Chong
->>>>>>> origin/master
+
+// Franco Chong
+
 // File: Life.cs
 // Controls the life of the player
 
 using UnityEngine;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-﻿using UnityEngine;
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
+
+using UnityEngine;
+
 using System.Collections;
 using UnityEngine.UI;
 
