@@ -1,7 +1,17 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 9c880de14240b836ff8139319b2b63f399b95c15
 ﻿//Franco Chong
 //File: MenuController.cs
 // Controls the collider of the portal
 using UnityEngine;
+<<<<<<< HEAD
+=======
+=======
+﻿using UnityEngine;
+>>>>>>> origin/master
+>>>>>>> 9c880de14240b836ff8139319b2b63f399b95c15
 using System.Collections;
 
 public class MenuController : MonoBehaviour {

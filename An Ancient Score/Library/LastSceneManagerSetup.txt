@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/_Scenes/GameOverScene.unity
+=======
+- path: Assets/_Scenes/An_Ancient_Score_Level_01.unity
+>>>>>>> 9c880de14240b836ff8139319b2b63f399b95c15
   isLoaded: 1
   isActive: 1
