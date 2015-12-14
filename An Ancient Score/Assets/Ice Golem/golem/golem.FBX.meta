@@ -3,6 +3,9 @@ guid: 8ba535c70bbcf7b46b0cba1188faae47
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
+<<<<<<< HEAD
+    4300000: Ice Golem
+=======
     100000: Bip001
     100002: Bip001 Footsteps
     100004: Bip001 Head
@@ -139,6 +142,7 @@ ModelImporter:
     7400016: death
     11100000: //RootNode
     13700000: Ice Golem
+>>>>>>> 9c880de14240b836ff8139319b2b63f399b95c15
   materials:
     importMaterials: 1
     materialName: 0
