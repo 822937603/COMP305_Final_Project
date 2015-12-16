@@ -3,9 +3,6 @@ guid: 8ba535c70bbcf7b46b0cba1188faae47
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-<<<<<<< HEAD
-    4300000: Ice Golem
-=======
     100000: Bip001
     100002: Bip001 Footsteps
     100004: Bip001 Head
@@ -140,9 +137,8 @@ ModelImporter:
     7400012: hit
     7400014: faint
     7400016: death
-    11100000: //RootNode
+    9500000: //RootNode
     13700000: Ice Golem
->>>>>>> 9c880de14240b836ff8139319b2b63f399b95c15
   materials:
     importMaterials: 1
     materialName: 0
@@ -400,7 +396,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -414,7 +410,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
@@ -435,7 +431,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

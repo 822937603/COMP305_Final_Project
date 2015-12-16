@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ﻿//Franco Chong
+=======
+
+//Franco Chong
+>>>>>>> origin/master
 //File: MenuController.cs
 // Controls the collider of the portal
 
