@@ -50,27 +50,13 @@
      <Compile Include="Assets\_Scripts\EnemyController.cs" />
      <Compile Include="Assets\_Scripts\GameController.cs" />
      <Compile Include="Assets\_Scripts\GoldItemController.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\_Scripts\InstructionController.cs" />
      <Compile Include="Assets\_Scripts\Life.cs" />
      <Compile Include="Assets\_Scripts\MenuController.cs" />
      <Compile Include="Assets\_Scripts\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\PlayerShooting.cs" />
      <Compile Include="Assets\_Scripts\RestartScript.cs" />
      <Compile Include="Assets\_Scripts\ReturnToMenu.cs" />
-=======
-     <Compile Include="Assets\_Scripts\Life.cs" />
-     <Compile Include="Assets\_Scripts\MenuController.cs" />
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-     <Compile Include="Assets\_Scripts\MenuController.cs" />
-=======
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> d397798e513350b84bced5b9af6b47888af27cd5
-     <Compile Include="Assets\_Scripts\PlayerController.cs" />
->>>>>>> 9c880de14240b836ff8139319b2b63f399b95c15
      <Compile Include="Assets\_Scripts\Score.cs" />
      <Compile Include="Assets\_Scripts\WoodItemController.cs" />
      <Compile Include="Assets\test1.cs" />
@@ -96,24 +82,6 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
->>>>>>> d397798e513350b84bced5b9af6b47888af27cd5
- <Reference Include="Mono.Cecil">
- <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
- </Reference>
->>>>>>> origin/master
->>>>>>> 9c880de14240b836ff8139319b2b63f399b95c15
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
