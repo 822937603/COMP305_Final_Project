@@ -50,18 +50,12 @@
      <Compile Include="Assets\_Scripts\EnemyController.cs" />
      <Compile Include="Assets\_Scripts\GameController.cs" />
      <Compile Include="Assets\_Scripts\GoldItemController.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\_Scripts\InstructionController.cs" />
      <Compile Include="Assets\_Scripts\Life.cs" />
      <Compile Include="Assets\_Scripts\MenuController.cs" />
      <Compile Include="Assets\_Scripts\PlayerController.cs" />
      <Compile Include="Assets\_Scripts\RestartScript.cs" />
      <Compile Include="Assets\_Scripts\ReturnToMenu.cs" />
-=======
-     <Compile Include="Assets\_Scripts\Life.cs" />
-     <Compile Include="Assets\_Scripts\MenuController.cs" />
-     <Compile Include="Assets\_Scripts\PlayerController.cs" />
->>>>>>> 9c880de14240b836ff8139319b2b63f399b95c15
      <Compile Include="Assets\_Scripts\Score.cs" />
      <Compile Include="Assets\_Scripts\WoodItemController.cs" />
      <Compile Include="Assets\test1.cs" />
@@ -81,36 +75,24 @@
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Models\warlor_Bruce\bruce_animationList.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
->>>>>>> d397798e513350b84bced5b9af6b47888af27cd5
->>>>>>> origin/master
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
-<<<<<<< HEAD
-=======
->>>>>>> origin/master
->>>>>>> 9c880de14240b836ff8139319b2b63f399b95c15
->>>>>>> origin/master
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
