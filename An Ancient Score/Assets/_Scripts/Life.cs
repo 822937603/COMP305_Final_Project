@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-﻿// Franco Chong
-// File: Life.cs
-// Controls the life of the player
-
-﻿using UnityEngine;
-=======
-
 // Franco Chong
 // File: Life.cs
 // Controls the life of the player
 
 using UnityEngine;
->>>>>>> origin/master
 using System.Collections;
 using UnityEngine.UI;
 
@@ -46,15 +37,15 @@ public class Life : MonoBehaviour {
 		}
 		//Restarts the level when the player loses all their life.
 		if(this.lifecount <=0){
-<<<<<<< HEAD
+
 			Application.LoadLevel("GameOverScene");
 
-=======
+
 
 			Application.LoadLevel("GameOverScene");
 
 			//Application.LoadLevel(Application.loadedLevel);		
->>>>>>> origin/master
+
 		}
 		this.setLife ();		
 	}

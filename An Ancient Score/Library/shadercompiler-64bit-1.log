@@ -1,35 +1,37 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-12840
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-11016
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=1263 outsize=1921 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=3579 outsize=2281 kw=WATER_REFRACTIVE pd= ok=1
+  api=4 type=0 insize=8310 outsize=5190 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=3579 outsize=2891 kw=WATER_REFRACTIVE pd= ok=1
+  api=4 type=1 insize=8310 outsize=3736 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=6238 outsize=1314 kw=SHADOWS_DEPTH pd= ok=1
+  api=4 type=0 insize=5641 outsize=4272 kw=POINT pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=6238 outsize=534 kw=SHADOWS_DEPTH pd= ok=1
+  api=4 type=1 insize=5641 outsize=4280 kw=POINT pd= ok=1
 Cmd: compileSnippet
-  api=4 type=2 insize=6238 outsize=7766 kw=SHADOWS_DEPTH pd= ok=1
+  api=4 type=0 insize=4681 outsize=4069 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=3 insize=6238 outsize=5905 kw=SHADOWS_DEPTH pd= ok=1
+  api=4 type=1 insize=4681 outsize=1875 kw= pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (181): undeclared identifier 'ShadeSHPerVertex'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  api=4 type=0 insize=10578 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
+  api=4 type=0 insize=7144 outsize=4329 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (181): undeclared identifier 'ShadeSHPerVertex'\nCompiling Fragment program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  api=4 type=1 insize=10578 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
+  api=4 type=1 insize=7144 outsize=2200 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (181): undeclared identifier 'ShadeSHPerVertex'\nCompiling Hull program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  api=4 type=2 insize=10578 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
+  api=4 type=0 insize=7847 outsize=5328 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF pd= ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (181): undeclared identifier 'ShadeSHPerVertex'\nCompiling Domain program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  api=4 type=3 insize=10578 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
+  api=4 type=1 insize=7847 outsize=2948 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF pd= ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=8323 outsize=1314 kw=DIRECTIONAL pd= ok=1
+  api=4 type=0 insize=4519 outsize=4662 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=8323 outsize=2948 kw=DIRECTIONAL pd= ok=1
+  api=4 type=1 insize=4519 outsize=1745 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=2 insize=8323 outsize=7766 kw=DIRECTIONAL pd= ok=1
+  api=4 type=0 insize=5641 outsize=4272 kw=DIRECTIONAL pd= ok=1
 Cmd: compileSnippet
-  api=4 type=3 insize=8323 outsize=6336 kw=DIRECTIONAL pd= ok=1
+  api=4 type=1 insize=5641 outsize=3541 kw=DIRECTIONAL pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8310 outsize=5580 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8310 outsize=4044 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
