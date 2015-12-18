@@ -1,37 +1,3 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-11016
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-13512
 Cmd: getPlatforms
-Cmd: preprocess
-  insize=1263 outsize=1921 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=8310 outsize=5190 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=8310 outsize=3736 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5641 outsize=4272 kw=POINT pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=5641 outsize=4280 kw=POINT pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4681 outsize=4069 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4681 outsize=1875 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=7144 outsize=4329 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=7144 outsize=2200 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=7847 outsize=5328 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=7847 outsize=2948 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=4519 outsize=4662 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=4519 outsize=1745 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=5641 outsize=4272 kw=DIRECTIONAL pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=5641 outsize=3541 kw=DIRECTIONAL pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=8310 outsize=5580 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=8310 outsize=4044 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
