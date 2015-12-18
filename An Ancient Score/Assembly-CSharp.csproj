@@ -58,6 +58,7 @@
      <Compile Include="Assets\_Scripts\RestartScript.cs" />
      <Compile Include="Assets\_Scripts\ReturnToMenu.cs" />
      <Compile Include="Assets\_Scripts\Score.cs" />
+     <Compile Include="Assets\_Scripts\ScrollItemController.cs" />
      <Compile Include="Assets\_Scripts\WoodItemController.cs" />
      <Compile Include="Assets\test1.cs" />
      <None Include="Assets\coastal_gun_battery\coastal_gun_battery_notes.txt" />
