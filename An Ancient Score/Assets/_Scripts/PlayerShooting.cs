@@ -7,9 +7,7 @@ public class PlayerShooting : MonoBehaviour {
 
 	// PUBLIC INSTANCE VARIABLES - ACCESSIBLE ON INSPECTOR
 	public GameObject impact;
-	public Animator animator;
 	public AudioSource crossbowFireSound;
-	public GameObject explosion;
 
 	public GameController gamecontroller;
 
@@ -37,7 +35,6 @@ public class PlayerShooting : MonoBehaviour {
 	void Update () {
 		if (CrossPlatformInputManager.GetButtonDown ("Fire1")) {
 			this.crossbowFireSound.Play();
-			animator.SetTrigger ("Fire");
 			this._shooting = true;
 		}
 		if (CrossPlatformInputManager.GetButtonUp ("Fire1")) {
@@ -59,7 +56,6 @@ public class PlayerShooting : MonoBehaviour {
 				if(hit.transform.CompareTag("Barrel")){
 					//destroy barrel object upon hit
 					Destroy (hit.transform.gameObject);
-					Instantiate(this.explosion, hit.point,Quaternion.identity);
 					//this.gamecontroller.Score += 100;
 				}
 
