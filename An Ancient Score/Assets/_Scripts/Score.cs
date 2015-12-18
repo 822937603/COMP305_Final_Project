@@ -68,7 +68,7 @@ public class Score : MonoBehaviour {
 		if (this.Scorecount >= 250) {
 			portal.gameObject.SetActive (true);
 			if (otherObjects.CompareTag ("PortalCollider")) {
-				Application.LoadLevel ("Menu");
+				Application.LoadLevel ("An_Ancient_Score_Level_02");
 			}
 		}
 
