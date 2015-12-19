@@ -1,15 +1,15 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-12600
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-14180
 Cmd: getPlatforms
 Cmd: compileSnippet
-  api=4 type=0 insize=46248 outsize=3256 kw=DIRECTIONAL SHADOWS_OFF pd= ok=1
+  error: 2 plat 4 at (122): undeclared identifier 'ShadeSHPerVertex'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=8177 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: compileSnippet
-  api=4 type=1 insize=46248 outsize=7010 kw=DIRECTIONAL SHADOWS_OFF pd= ok=1
+  error: 2 plat 4 at (122): undeclared identifier 'ShadeSHPerVertex'\nCompiling Fragment program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=1 insize=8177 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: compileSnippet
-  api=4 type=0 insize=6924 outsize=5117 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON pd= ok=1
+  error: 2 plat 4 at (122): undeclared identifier 'ShadeSHPerVertex'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=8177 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
 Cmd: compileSnippet
-  api=4 type=0 insize=70382 outsize=3541 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON VERTEXLIGHT_ON pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=46248 outsize=3256 kw=POINT SHADOWS_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=46248 outsize=7709 kw=POINT SHADOWS_OFF pd= ok=1
+  error: 2 plat 4 at (122): undeclared identifier 'ShadeSHPerVertex'\nCompiling Fragment program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=1 insize=8177 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
