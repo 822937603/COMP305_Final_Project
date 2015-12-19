@@ -40,10 +40,6 @@ public class Life : MonoBehaviour {
 
 			Application.LoadLevel("GameOverScene");
 
-
-
-			Application.LoadLevel("GameOverScene");
-
 			//Application.LoadLevel(Application.loadedLevel);		
 
 		}

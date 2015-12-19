@@ -1,24 +1,9 @@
-<<<<<<< HEAD
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\ScrollItemController.cs">
-    <Files>
-      <File FileName="Assets\_Scripts\ScrollItemController.cs" Line="27" Column="45" />
-      <File FileName="Assets\_Scripts\Life.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\Score.cs" Line="1" Column="1" />
-      <File FileName="c:\Users\Jonathan\Desktop\COMP305_Final_Project\An Ancient Score\Assets\_Scripts\MenuController.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\PlayerShooting.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\ArrowItemController.cs" Line="27" Column="38" />
-      <File FileName="Assets\_Scripts\GoldItemController.cs" Line="38" Column="29" />
-=======
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\PlayerShooting.cs">
     <Files>
-      <File FileName="Assets\_Scripts\Score.cs" Line="55" Column="2" />
-      <File FileName="Assets\_Scripts\Life.cs" Line="5" Column="13" />
-      <File FileName="Assets\_Scripts\PlayerShooting.cs" Line="58" Column="41" />
->>>>>>> origin/master
+      <File FileName="Assets\_Scripts\Life.cs" Line="41" Column="43" />
+      <File FileName="Assets\_Scripts\PlayerShooting.cs" Line="51" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -9,7 +9,6 @@ public class PlayerShooting : MonoBehaviour {
 	public GameObject impact;
 	public AudioSource crossbowFireSound;
 
-	public GameController gamecontroller;
 
 	// PRIVATE INSTANCE VARIABLES
 	private GameObject[] _impacts;
@@ -53,8 +52,8 @@ public class PlayerShooting : MonoBehaviour {
 
 			if(Physics.Raycast(this._transform.position, this._transform.forward, out hit, 50f)){
 
-				if(hit.transform.CompareTag("Barrel")){
-					//destroy barrel object upon hit
+				if(hit.transform.CompareTag("Enemy")){
+					//destroy enemy object upon hit
 					Destroy (hit.transform.gameObject);
 					//this.gamecontroller.Score += 100;
 				}
