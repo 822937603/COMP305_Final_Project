@@ -45,6 +45,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\PyroParticles\Demo\DemoScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireConstantBaseScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireLightScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\FireProjectileScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\MeteorSwarmScript.cs" />
+     <Compile Include="Assets\PyroParticles\Prefab\Script\SingleLineAttribute.cs" />
      <Compile Include="Assets\_Scripts\ArrowItemController.cs" />
      <Compile Include="Assets\_Scripts\ControlsController.cs" />
      <Compile Include="Assets\_Scripts\EnemyController.cs" />
@@ -55,6 +63,7 @@
      <Compile Include="Assets\_Scripts\Life.cs" />
      <Compile Include="Assets\_Scripts\MenuController.cs" />
      <Compile Include="Assets\_Scripts\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\PlayerFireBalls.cs" />
      <Compile Include="Assets\_Scripts\PlayerShooting.cs" />
      <Compile Include="Assets\_Scripts\RestartScript.cs" />
      <Compile Include="Assets\_Scripts\ReturnToMenu.cs" />
@@ -66,10 +75,12 @@
      <None Include="Assets\Models\overlord\models\overlord\Materials\clothshader.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Models\Medieval props\Read me.txt" />
+     <None Include="Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
      <None Include="Assets\Models\PB_Spider\readme.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\PyroParticles\Readme.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Models\overlord\readme.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
